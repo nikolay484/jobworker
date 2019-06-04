@@ -1,0 +1,24 @@
+{
+    "name": "nikolay/jobworker",
+    "description": "codeigniter queue worker",
+    "keywords": ["codeigniter", "queueworker", "package"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Nikolay",
+            "email": "nikolay484@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nikolay\\JobWorker\\": "src/"
+        }
+    }
+}
